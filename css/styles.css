@@ -313,9 +313,7 @@ body {
   border-radius: 50%;
   background-color: var(--text-color);
 }
-.social-media {
-  display: flex;
-}
+
 .social-list-footer {
   display: flex;
   gap: 16px;
@@ -327,6 +325,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-color);
   margin-bottom: 16px;
+}
+.tt {
+  display: flex;
 }
 
 /*==============/FOOTER============*/

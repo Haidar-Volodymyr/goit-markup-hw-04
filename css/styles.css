@@ -395,7 +395,12 @@ body {
   color: var(--white-color);
   margin-bottom: 16px;
 }
-
+.qqq {
+  display: flex;
+}
+.left-footer {
+  margin-right: 120px;
+}
 /*==============/FOOTER============*/
 
 /* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */

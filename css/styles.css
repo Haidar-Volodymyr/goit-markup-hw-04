@@ -260,13 +260,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
   background-color: var(--primary-brand-color);
 }
-/* =======================TEAM=====================*/
+.social-list-link:focus,
+.social-list-link:hover {
+  background-color: var(--pressed-state-color);
+}
 
+/* =======================TEAM=====================*/
 /*=======================FOOTER===================*/
 .text-footer {
   font-size: 16px;
@@ -295,6 +299,36 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
 }
+
+.social-list-icon-fotter {
+  width: 24px;
+  height: 24px;
+}
+.social-list-item-footer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--text-color);
+}
+.social-media {
+  display: flex;
+}
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+
 /*==============/FOOTER============*/
 
 /* +++++++++++++++++++++++++++PORTFOLIO++++++++++++++++++++++++ */

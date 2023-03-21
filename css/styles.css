@@ -8,7 +8,9 @@
   --light-color: #f4f4fd;
   --pressed-state-color: #404bbf;
   --white-color: #ffffff;
+  --socil-icon-second-bg: #31d0aa;
 }
+
 .list {
   list-style: none;
 }
@@ -304,7 +306,7 @@ body {
   width: 24px;
   height: 24px;
 }
-.social-list-item-footer {
+.social-list-link-footer {
   width: 40px;
   height: 40px;
   display: flex;
@@ -312,6 +314,10 @@ body {
   align-items: center;
   border-radius: 50%;
   background-color: var(--text-color);
+}
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+  background-color: var(--socil-icon-second-bg);
 }
 
 .social-list-footer {
